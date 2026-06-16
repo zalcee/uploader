@@ -87,7 +87,7 @@ async function handleAction(action) {
         document.getElementById("dateSelectorContainer").style.display = "none";
         document.getElementById("summary").innerHTML = "";
         document.getElementById("jsonOutput").textContent = "";
-        document.getElementById("csvFile").value = "";
+        // document.getElementById("csvFile").value = "";
         currentSessionId = null;
         temporaryServerFilePath = null;
     }
